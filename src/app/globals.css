@@ -19,3 +19,55 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Inside globals.css */
+.link-15 {
+  color: #991b1b !important;
+  font-size: 20px !important;
+  text-decoration: none !important;
+  padding: 10px 20px !important;
+  margin: 0 5px !important;
+  display: inline-block !important;
+  transition: all 0.4s !important;
+  position: relative !important;
+  border: 2px solid transparent !important;
+}
+
+.link-15:hover {
+  border: 2px solid red !important; /* Change the border to red */
+  box-shadow: 0 0 10px 5px rgba(255, 0, 0, 0.2) !important; /* Red box shadow */
+  background-color: rgba(255, 0, 0, 0.1) !important; /* Light red background */
+  color: #fff !important; /* White text */
+}
+
+.readme{
+  color: #991b1b !important;
+  font-size: 12px !important;
+  text-decoration: none !important;
+  padding: 10px 10px !important;
+  margin: 0 5px !important;
+  display: inline-block !important;
+  transition: all 0.4s !important;
+  position: relative !important;
+  border: 1px solid white !important;
+}
+.readme:hover {
+  border: 2px solid red !important; /* Change the border to red */
+  box-shadow: 0 0 10px 5px rgba(255, 0, 0, 0.2) !important; /* Red box shadow */
+  background-color: rgba(255, 0, 0, 0.1) !important; /* Light red background */
+  color: #fff !important; /* White text */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
