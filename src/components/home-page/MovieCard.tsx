@@ -3,23 +3,23 @@ import { FaRegHeart } from "react-icons/fa";
 
 
 interface MovieCardProps {
-    title: string;
+    original_title: string;
     imageUrl: string;
 }
 
-const MovieCard: React.FC<MovieCardProps> = ({ title, imageUrl }) => {
+const MovieCard: React.FC<MovieCardProps> = ({ original_title, imageUrl }) => {
     return (
       <div className="bg-transparent shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 border border-red-800">
 
      <div className="w-full h-96  overflow-hidden">
       <img
         src={imageUrl} 
-        alt={title} 
+        alt={original_title}
         className="w-full h-full object-cover" // Adjust this to your needs
       />
      </div>
       <div className="p-4 ">
-        <h2 className="text-lg font-sans text-red-900 mb-2">{title}</h2>
+        <h2 className="text-lg font-sans text-red-900 mb-2">{original_title}</h2>
         <div className="flex justify-between">
           <button className="readme border ">
             Read Me

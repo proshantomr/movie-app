@@ -13,23 +13,19 @@ const Navbar = () => {
                             Movie App
                         </a>
 
-                        {/* Center: Button */}
-                        {/*<div className="hidden md:block">*/}
-                        {/*    <ul className="flex space-x-6 px-12">*/}
-                        {/*        <li>*/}
-                        {/*            <a href="#" className="link-15">Home</a>*/}
-                        {/*        </li>*/}
-                        {/*        <li>*/}
-                        {/*            <a href="#" className="link-15">About Me</a>*/}
-                        {/*        </li>*/}
-                        {/*        <li>*/}
-                        {/*            <a href="#" className="link-15">Activities</a>*/}
-                        {/*        </li>*/}
-                        {/*        <li>*/}
-                        {/*            <a href="#" className="link-15">Contact</a>*/}
-                        {/*        </li>*/}
-                        {/*    </ul>*/}
-                        {/*</div>*/}
+                        <div className="hidden md:block">
+                            <ul className="flex space-x-6 px-12">
+                                <li>
+                                    <a href="#" className="link-15">Kids</a>
+                                </li>
+                                <li>
+                                    <a href="#" className="link-15">Adult</a>
+                                </li>
+                                <li>
+                                    <a href="#" className="link-15">Most Watches</a>
+                                </li>
+                            </ul>
+                        </div>
 
 
 
